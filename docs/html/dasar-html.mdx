@@ -1,0 +1,124 @@
+---
+sidebar_position: 2
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Dasar HTML
+
+:::tip
+
+Selalu berikan **closing tag** saat menulis sebuah elemen html.
+
+:::
+
+## Formatting
+
+HTML Formatting adalah proses untuk memformat teks agar memiliki _look and feel_ yang lebih baik. Element-element formatting didesain untuk menampilkan teks-teks spesial tanpa menggunakan CSS.
+
+| Tag        | Kegunaan                  |
+| ---------- | ------------------------- |
+| `<strong>` | Menebalkan teks penting   |
+| `<b>`      | Menebalkan teks           |
+| `<em>`     | Menegaskan teks           |
+| `<i>`      | Memiringkan teks          |
+| `<u>`      | Menggaris bawahi teks     |
+| `<mark>`   | Menyoroti teks            |
+| `<sub>`    | Subscript teks            |
+| `<sup>`    | Superscript teks          |
+| `<big>`    | Membesarkan font 1 ukuran |
+| `<small>`  | Teks kecil                |
+| `<del>`    | Mencoret teks             |
+
+## Headings
+- Heading digunakan untuk mengatur struktur halaman dan hirarki konten
+- Heading di tandai dengan tag `<h1>` hingga `<h6>`. Semakin kecilnya angka, menunjukkan bahwa semakin pentinglah heading tersebut.
+
+<details style={{ backgroundColor: "aliceblue" }}>
+  <summary>
+    {" "}
+    <b>Contoh Implementasi</b>{" "}
+  </summary>
+  <Tabs>
+    <TabItem value="hasil" label="Hasil" default>
+      <pre>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+      </pre>
+    </TabItem>
+    <TabItem value="kode" label="Kode">
+      <pre>
+        <p>&lt;h1&gt;Heading 1&lt;/h1&gt;</p>
+        <p>&lt;h2&gt;Heading 2&lt;/h2&gt;</p>
+        <p>&lt;h3&gt;Heading 3&lt;/h3&gt;</p>
+        <p>&lt;h4&gt;Heading 4&lt;/h4&gt;</p>
+        <p>&lt;h5&gt;Heading 5&lt;/h5&gt;</p>
+        <p>&lt;h6&gt;Heading 6&lt;/h6&gt;</p>
+      </pre>
+    </TabItem>
+  </Tabs>
+</details>
+
+## Paragraph
+
+- HTML element `<p>` merepresentasikan sebuah paragraf
+- Paragraphs are block-level elements (always goes to next line), and will automatically close if another block-level element is parsed before the closing `</p>` tag.
+- Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or the first-line indentation
+
+<details style={{ backgroundColor: "aliceblue" }}>
+  <summary>
+    {" "}
+    <b>Contoh Implementasi</b>{" "}
+  </summary>
+  <Tabs>
+    <TabItem value="hasil" label="Hasil" default>
+      <pre>
+        <p>Ini contoh paragraf</p>
+      </pre>
+    </TabItem>
+    <TabItem value="kode" label="Kode">
+      <pre>
+        <p>&lt;p&gt;Ini contoh paragraf&lt;/p&gt;</p>
+      </pre>
+    </TabItem>
+  </Tabs>
+</details>
+
+## Image
+There are many formats of photos/pictures/images/Web Graphics used on the web
+- BMP (Bitmap)
+- GIF (Graphics Interchange Format)
+- JPEG / JPG (Joint Photographic Experts Group)
+- PNG (Portable Network Graphic)
+- SVG (Scalable Vector Graphics)
+- WebP (Web Picture format)
+
+Images are one of the most important and integral parts of a web page used to improve the design and the appearance of a web page
+- In HTML, images are embedded/defined/imported/placed with the `<img>` tag.
+- The `src` attribute is required, it specifies/contains the path (the URL/web address) of the image you want to embed
+- The `alt` attribute contains/provides/describe the image a textual description (alternate text) of the image, isn't mandatory but is incredibly useful for accessibility (screen readers)
+- The `<img>` tag is a standalone/empty tag, it contains attributes only, and does not have a closing tag.
+
+<details style={{ backgroundColor: "aliceblue" }}>
+  <summary>
+    {" "}
+    <b>Contoh Implementasi</b>{" "}
+  </summary>
+  <Tabs>
+    <TabItem value="hasil" label="Hasil" default>
+      <pre>
+        <img src="/img/kitten.jpg"/>
+      </pre>
+    </TabItem>
+    <TabItem value="kode" label="Kode">
+      <pre>
+        <p>&lt;img src="/img/kitten.jpg"/&gt;</p>
+      </pre>
+    </TabItem>
+  </Tabs>
+</details>
