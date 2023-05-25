@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Sebelum Memulai
 
-Wiki ini digunakan untuk pembelajaran dan juga sebagai materi yang bisa dilihat kapanpun. Apa saja yang akan dibahas? **Macam-macam**. Semua materi dapat kalian lihat di sidebar sebelah kiri. Jika ada materi yang di anggap salah atau tidak sesuai dengan standard yang ada, silahkan laporkan melalui email ke **lapor@kreatale.com**
+Wiki ini digunakan untuk pembelajaran dan juga sebagai materi yang bisa dilihat kapanpun. Apa saja yang akan dibahas? **Macam-macam**. Semua materi dapat kalian lihat di sidebar sebelah kiri.
 
 Sebelum kita memulai journey kita untuk menjadi software engineer / developer ada beberapa hal yangperlu kita persiapkan. Seperti mental, uang dan tenaga... hehe. Nggak kok. Bukan itu. Tapi kita butuh untuk menginstall beberapa hal agar perjalanan kita lancar
 
