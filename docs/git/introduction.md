@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Git Introduction
 Git is a distributed version control system that **tracks changes** in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development.
 
@@ -50,7 +53,7 @@ Pull changes from remote repo to local repo
 git pull origin <remote_branch>
 ```
 
-<br>
+<br/>
 
 When we have new changes in our local repo and we wanted to make changes available in remote repo, the flow goes like this:
 
